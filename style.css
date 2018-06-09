@@ -86,7 +86,7 @@ img {
    z-index: 1;
 }
 
-@media (min-device-width: 815px) {
+@media (min-width: 500px) {
    .wrapper {
       display: grid;
       grid-template-columns: 25vw 75vw;
