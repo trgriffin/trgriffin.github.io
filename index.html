@@ -1,0 +1,41 @@
+<DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="utf-8">
+   <title>home</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="script.js" defer></script>
+</head>
+
+<body class="fadeIn">
+   <div class="wrapper">
+      <header class="toggle">
+         <img id="button" src="toggle.svg" alt="toggle">
+      </header>
+      <header class="title">
+         <img src="home.svg" alt="home">
+      </header>
+      <nav id="menu" class="off">
+         <div class="item">
+            <img src="home.svg" alt="home">
+         </div>
+         <div class="item">
+            <img src="notes.svg" alt="notes" onclick="body.classList.replace('fadeIn', 'fadeOut'); setTimeout(function() {location.href='notes.html'},505);">
+         </div>
+         <div class="item">
+            <img src="etc.svg" alt="etc">
+         </div>
+         <div class="item">
+            <img src="etc.svg" alt="etc">
+         </div>
+      </nav>
+      <article class="content">
+         <p>
+            The axiomatic structure of Quantum Mechanics (QM) has long been a puzzle. Ideally, all mathematical structures and axioms they satisfy should have a clear physical meaning. That is, structures should correspond some natural operations on observables, and axioms should express some natural properties of these operations. Now, if we look at axioms of QM, as formulated for example in [1], the situation is very far from this ideal. The prime offender is axiom VII, which essentially says that observables are bounded Hermitian linear operators in a Hilbert space V. What is the physical meaning of the operation of adding two observables? What is the physical meaning, if any, of the associative product of operators on V? Why do complex numbers make an appearance, although observables form a vector space over R? Why should observables be linear operators at all? Another way to phrase the question is this. Ideally, axioms should be formulated in such a way that both QM and Classical Mechanics (CM) are particular realizations of these axioms depending on a parameter h, and CM can be obtained as a “contraction” or h→0 limit of QM. An axiom like axiom VII of [1] is then clearly unacceptable.
+         </p>
+      </article>
+   </div>
+</body>
+
+</html>
