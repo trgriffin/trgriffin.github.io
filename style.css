@@ -104,10 +104,9 @@ img {
    }
    
    .title {
-      align-items: center;
+      align-items: right;
       justify-content: right;
-      padding: 15px;
-      padding-left: 35px;
+      padding-right: 35px;
    }
 
    #menu {
