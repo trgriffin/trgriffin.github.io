@@ -73,7 +73,7 @@ img {
 #menu {
    grid-area: content;
    display: grid;
-   grid-template-rows: 20vh 20vh 20vh 20vh;
+   grid-template-rows: 17vh 17vh 17vh 17vh;
    background: #ffffff;
 }
 
