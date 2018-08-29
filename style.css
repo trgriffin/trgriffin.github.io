@@ -36,19 +36,19 @@ img {
 .off {
    z-index: 0;
    opacity: 0;
-   transition: 1s;
+   transition: opacity 0.85s, z-index 0.85s;
 }
 
 .on {
    z-index: 2;
    opacity: 1;
-   transition: 1s;
+   transition: opacity 0.85s;
 }
 
 .wrapper {
    display: grid;
-   grid-template-columns: 25vw 75vw;
-   grid-template-rows: 20vh 80vh;
+   grid-template-columns: 34vw 66vw;
+   grid-template-rows: 17vh 68vh;
    grid-template-areas: 
       "toggle title"
       "content content"
@@ -59,13 +59,15 @@ img {
    display: flex;
    align-items: center;
    justify-content: center;
+   padding: 20%;
 }
 
 .title {
    grid-area: title;
    display: flex;
    align-items: center;
-   justify-content: right;
+   justify-content: center;
+   padding: 15px;
 }
 
 #menu {
@@ -79,6 +81,7 @@ img {
    display: flex;
    align-items: center;
    justify-content: center;
+   padding: 20px;
 }
 
 .content {
@@ -98,6 +101,12 @@ img {
 
    .toggle {
       display: none;
+   }
+   
+   .title {
+      justify-content: right;
+      padding: 15px;
+      padding-left: 35px;
    }
 
    #menu {
