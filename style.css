@@ -104,7 +104,10 @@ img {
    }
    
    .title {
+      align-items: center;
       justify-content: right;
+      padding: 15px;
+      padding-left: 35px;
    }
 
    #menu {
